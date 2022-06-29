@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(#150734,#0F2557,#28559A);
+    
+}
+#canvas{
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+.sec1{
+    background: linear-gradient(#150734,#0F2557,#28559A);
+    height:100vh;
+    width: 100%;
+}
+.wrap{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+.wrap h1{
+    color:#a39c82;
+    font-size: 60px;
+    font-family: 'Reggae One', cursive;
+}
+
+.form{
+    margin-top: 20px;
+}
+.form h2{
+    color: rgb(142, 207, 247);
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 33px;
+}
+
+.form input[type="text"]{
+    background: rgba(28, 25, 25, 0.386);
+    border: transparent;
+    color: rgb(255, 255, 255);
+    display: block;
+    margin: 20px;
+    height: 30px;
+    width:140px;
+    padding: 9px 12px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 25px;
+    font-family: 'Acme', sans-serif;
+    transition: width 0.25s linear;
+}
+.form input[type="text"]:focus{
+    width:230px ;
+    border: 2px solid rgb(87, 184, 244);
+}
+.form input[type="submit"]{
+    display: block;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    width:150px;
+    height:60px;
+    font-size: 20px;
+    border-radius: 25px;
+    padding:10px 15px;
+    font-family: 'Reggae One', cursive;
+    text-align: center;
+    
+    
+}
+.form input[type="submit"]:hover{
+    background-color:rgba(20, 20, 20, 0.582);
+    cursor: pointer;
+}
+.flexwrap{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.start,.playagain{
+    display: block;
+    padding: 15px;
+    font-family: 'Reggae One', cursive;
+
+}
+
+.btncnt{
+    width: fit-content;
+    margin-left:70px;
+    margin-top: 200px;
+    
+}
+.start{
+    font-weight: 700;
+    width:150px;
+    font-size: 35px;
+    border-radius: 25px;
+    color: #efe8ef;
+    background-color: rgba(255, 0, 225, 0.527);
+    cursor: pointer;
+}
+.playagain{
+    font-weight: 800;
+    width:150px;
+    font-size: 25px;
+    margin-top: 40px;
+    border-radius: 30px;
+    color: #efe8ef;
+    background-color: rgba(255, 0, 225, 0.527);
+    cursor: pointer;
+}
+.start:hover,.playagain:hover{
+    background-color: #3068bd;
+}
