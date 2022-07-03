@@ -83,12 +83,29 @@
     background-color:rgba(20, 20, 20, 0.582);
     cursor: pointer;
 }
+#multibtn{
+    display: block;
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+    width:150px;
+    height:60px;
+    font-size: 20px;
+    border-radius: 25px;
+    padding:10px 15px;
+    font-family: 'Reggae One', cursive;
+    text-align: center;
+    
+}
+#multibtn:hover{
+    background-color:rgba(20, 20, 20, 0.582);
+    cursor: pointer;
+}
 .flexwrap{
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
 }
-.start,.playagain{
+.start,.playagain,.multiplayer{
     display: block;
     padding: 15px;
     font-family: 'Reggae One', cursive;
@@ -120,6 +137,19 @@
     background-color: rgba(255, 0, 225, 0.527);
     cursor: pointer;
 }
-.start:hover,.playagain:hover{
+.multiplayer{
+    font-weight: 800;
+    width:fit-content;
+    font-size: 25px;
+    margin-top: 40px;
+    border-radius: 30px;
+    color: #efe8ef;
+    background-color: rgba(255, 0, 225, 0.527);
+    cursor: pointer;
+}
+.start:hover,.playagain:hover,.multiplayer:hover{
     background-color: #3068bd;
+}
+.blck{
+    display: inline-block;
 }

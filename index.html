@@ -16,6 +16,7 @@
                         <h2>Enter your Username</h2>
                         <input type="text" name="fname" placeholder="Type here" id="username" required>
                         <input type="submit" value="READY" id="readybutton"  >
+                        <button id="multibtn" style="width: fit-content;margin-top: 20px;" onclick="multi_player()">MULTIPLAYER</button>
                         
                     </form>
                 </center>
@@ -27,6 +28,7 @@
                 <div style="text-align:center;" class="btncnt">
                     <button class="start">START</button>
                     <button class="playagain">PLAY AGAIN</button>
+                    <!--<button class="multiplayer" >MULTIPLAYER</button>-->
                 </div>
                 <div>
                     <center>
@@ -40,6 +42,30 @@
                 
             </div>
             
+        </section>
+        <section class="sec3">
+            <div class="wrap" style="background-color: transparent;">
+                <h1 style="font-size: 50px;">BOOK TOWER</h1>
+                <h1 style="font-size: 40px;">Multiplayer</h1>
+                <center>
+                    <form class="form" action="index.html" onsubmit="readybtn_mul()" method="post">
+                        <div style="display: flex;align-items: center;justify-content: center;">
+                            <div>
+                                <h2 style="font-size: 30px;">Username</h2>
+                                <input type="text" name="fname" placeholder="Player 1" id="username_1" required>
+                            </div>
+                            <div>
+                                <h2 style="font-size: 30px;">Username</h2>
+                                <input type="text" name="fname" placeholder="Player 2" id="username_2" required>
+                            </div>
+                            
+                            
+                        </div>
+                        <input type="submit" value="READY" id="readybutton_mul">
+                    </form>
+                </center>
+            </div>
+
         </section>
     </body>
     <script src="script.js"></script>
